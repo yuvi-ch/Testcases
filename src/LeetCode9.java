@@ -1,4 +1,4 @@
-public class LeetCode9 {
+public class LeetCode9 { //allOK
     public boolean isPalindrome(int x) {
 
         boolean r=true;

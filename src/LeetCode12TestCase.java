@@ -12,19 +12,19 @@ public class LeetCode12TestCase {
     }
 //--
 @Test
-public void test2(){
+public void testX(){
     var result = obj.intToRoman(10);
     Assert.assertEquals("X",result);
 }
 //--
 @Test
-public void test3(){
+public void testXX(){
     var result = obj.intToRoman(20);
     Assert.assertEquals("XX",result);
 }
 //--
 @Test
-public void test4(){
+public void testVIII(){
     var result = obj.intToRoman(8);
     Assert.assertEquals("VIII",result);
 }

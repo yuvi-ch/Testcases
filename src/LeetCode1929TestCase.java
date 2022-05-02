@@ -6,7 +6,7 @@ public class LeetCode1929TestCase {
     private LeetCode1929 obj = new LeetCode1929();
 
     @Test
-    public void test1(){
+    public void ThreeContainedArray(){
 
         int[] arr = {1,2,1};
         int[] ans = {1,2,1,1,2,1};
@@ -18,7 +18,7 @@ public class LeetCode1929TestCase {
     }
     //----------
     @Test
-    public void test2(){
+    public void FourContainedArray(){
 
         int[] arr = {1,3,2,1};
         int[] ans = {1,3,2,1,1,3,2,1};

@@ -6,7 +6,7 @@ public class Leetcode1480TestCase {
     private Leetcode1480 obj = new Leetcode1480();
 
     @Test
-    public void test1(){
+    public void DifferentNums(){
         int[] num ={1,2,3,4};
         int[] ans={1,3,6,10};
         var result = obj.runningSum(num);
@@ -15,7 +15,7 @@ public class Leetcode1480TestCase {
     }
     //---
     @Test
-    public void test2(){
+    public void SameNumbers(){
         int[] num ={1,1,1,1,1};
         int[] ans={1,2,3,4,5};
         var result = obj.runningSum(num);
@@ -24,7 +24,7 @@ public class Leetcode1480TestCase {
     }
     //---
     @Test
-    public void test3(){
+    public void SingleElementArray(){
         int[] num ={1};
         int[] ans={1};
         var result = obj.runningSum(num);

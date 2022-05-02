@@ -7,7 +7,7 @@ public class LeetCOde1920TestCase {
 
 //--------------
     @Test
-    public void test1() {
+    public void Permutation1() {
 
         int[] arr = {0, 2, 1, 5, 3, 4};
 
@@ -20,7 +20,7 @@ public class LeetCOde1920TestCase {
     }
 //---------------
     @Test
-    public void test2(){
+    public void permutation2(){
 
         int[] arr = {5,0,1,2,3,4};
 
